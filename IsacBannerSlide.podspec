@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IsacBannerSlide'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.swift_version    = '4.0'
   s.summary          = 'You can create an image banner slider using a collection view, where you can apply both images and click events simultaneously.'
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = 'IsacBanner: A feature-rich banner slide library with UICollectionView for dynamic image banners, touch events, and page indicators.'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files  = ["Sources/**/*.swift"]
   s.dependency 'SnapKit'

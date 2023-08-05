@@ -1,9 +1,9 @@
 # IsacBannerSlide
 
-[![CI Status](https://img.shields.io/travis/IsacShin/IsacBannerSlide.svg?style=flat)](https://travis-ci.org/IsacShin/IsacBanner)
-[![Version](https://img.shields.io/cocoapods/v/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
-[![License](https://img.shields.io/cocoapods/l/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
-[![Platform](https://img.shields.io/cocoapods/p/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
+[![CI Status](https://img.shields.io/travis/IsacShin/IsacBannerSlide.svg?style=flat)](https://travis-ci.org/IsacShin/IsacBannerSlide)
+[![Version](https://img.shields.io/cocoapods/v/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBannerSlide)
+[![License](https://img.shields.io/cocoapods/l/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBannerSlide)
+[![Platform](https://img.shields.io/cocoapods/p/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBannerSlide)
 
 ## Features
 
@@ -24,7 +24,7 @@ IsacBannerSlide.createBanner(
 ```
 
 ## Requirements
-- iOS 11.0+
+- iOS 12.0+
   
 ## Installation
 
