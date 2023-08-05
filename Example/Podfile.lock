@@ -1,0 +1,31 @@
+PODS:
+  - IsacBannerSlide (0.1.0):
+    - Kingfisher
+    - SnapKit
+    - Then
+  - Kingfisher (6.3.1)
+  - SnapKit (5.6.0)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - IsacBannerSlide (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SnapKit
+    - Then
+
+EXTERNAL SOURCES:
+  IsacBannerSlide:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IsacBannerSlide: 047e04910163fa08dd4624004e86f8c0bbd6362a
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 13591ed68338f95442a8b9d7f710e8507345a2c3
+
+COCOAPODS: 1.12.1

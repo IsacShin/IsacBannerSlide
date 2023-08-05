@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IsacBannerSlide'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.swift_version    = '4.0'
   s.summary          = 'You can create an image banner slider using a collection view, where you can apply both images and click events simultaneously.'
 
