@@ -292,7 +292,7 @@
 		AABB002C718F3C47ED0AE5682C56BB95 /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
 		ABE11943B978063B16110EFB16C02F2D /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		AC62DFAAAB7F1A82980303738D398A47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ACEAB07EC41805EC0A37D7F2F99A70AD /* IsacBannerSlide */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IsacBannerSlide; path = IsacBannerSlide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEAB07EC41805EC0A37D7F2F99A70AD /* IsacBannerSlide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IsacBannerSlide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE53F458F2B02CA1C55FD84B9FA2AC54 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		AF0CA2C1A0AAAB36147F9D32E5EF0D44 /* IsacBannerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsacBannerModel.swift; path = Sources/IsacBannerModel.swift; sourceTree = "<group>"; };
 		AF3AE111415CC5190D7FEB42D59460DA /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
@@ -489,7 +489,7 @@
 		1FDD6141BBD5D625B84729A19E65B1E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACEAB07EC41805EC0A37D7F2F99A70AD /* IsacBannerSlide */,
+				ACEAB07EC41805EC0A37D7F2F99A70AD /* IsacBannerSlide.framework */,
 				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
 				47EA7F1CEEE8E50878CD64792DD84E44 /* Pods-IsacBannerSlide_Example */,
 				1A655FF73C986ACB778CBBA759B321D1 /* Pods-IsacBannerSlide_Tests */,
@@ -853,7 +853,7 @@
 			);
 			name = IsacBannerSlide;
 			productName = IsacBannerSlide;
-			productReference = ACEAB07EC41805EC0A37D7F2F99A70AD /* IsacBannerSlide */;
+			productReference = ACEAB07EC41805EC0A37D7F2F99A70AD /* IsacBannerSlide.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {
@@ -1168,7 +1168,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/IsacBannerSlide/IsacBannerSlide-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/IsacBannerSlide/IsacBannerSlide-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IsacBannerSlide/IsacBannerSlide.modulemap";
 				PRODUCT_MODULE_NAME = IsacBannerSlide;
@@ -1648,7 +1648,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/IsacBannerSlide/IsacBannerSlide-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/IsacBannerSlide/IsacBannerSlide-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IsacBannerSlide/IsacBannerSlide.modulemap";
 				PRODUCT_MODULE_NAME = IsacBannerSlide;
