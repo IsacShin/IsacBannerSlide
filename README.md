@@ -1,9 +1,9 @@
 # IsacBannerSlide
 
-[![CI Status](https://img.shields.io/travis/IsacShin/IsacBanner.svg?style=flat)](https://travis-ci.org/IsacShin/IsacBanner)
-[![Version](https://img.shields.io/cocoapods/v/IsacBanner.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
-[![License](https://img.shields.io/cocoapods/l/IsacBanner.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
-[![Platform](https://img.shields.io/cocoapods/p/IsacBanner.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
+[![CI Status](https://img.shields.io/travis/IsacShin/IsacBannerSlide.svg?style=flat)](https://travis-ci.org/IsacShin/IsacBanner)
+[![Version](https://img.shields.io/cocoapods/v/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
+[![License](https://img.shields.io/cocoapods/l/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
+[![Platform](https://img.shields.io/cocoapods/p/IsacBannerSlide.svg?style=flat)](https://cocoapods.org/pods/IsacBanner)
 
 ## Features
 
