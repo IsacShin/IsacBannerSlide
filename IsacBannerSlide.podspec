@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'IsacBannerSlide'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IsacBannerSlide.'
+  s.swift_version    = '4.0'
+  s.summary          = 'You can create an image banner slider using a collection view, where you can apply both images and click events simultaneously.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +18,21 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/IsacShin/IsacBannerSlide'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'IsacShin' => 'isac9305@gmail.com' }
   s.source           = { :git => 'https://github.com/IsacShin/IsacBannerSlide.git', :tag => s.version.to_s }
+  s.description  = 'IsacBanner: A feature-rich banner slide library with UICollectionView for dynamic image banners, touch events, and page indicators.'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'IsacBannerSlide/Classes/**/*'
+  s.source_files  = ["Sources/**/*.swift"]
+  s.dependency 'SnapKit'
+  s.dependency 'Kingfisher'
+  s.dependency 'Then'
   
   # s.resource_bundles = {
   #   'IsacBannerSlide' => ['IsacBannerSlide/Assets/*.png']

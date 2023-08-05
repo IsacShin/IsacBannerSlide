@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import IsacBannerSlide
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var bannerWrapV: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        IsacBannerSlide.createBanner(
+                    IsacBannerModel.getDummy(),
+                    bannerHeight: 90,                   // DefaultHeight: 90
+                    pageDotColor: .black,               // DefaultDotColor: black
+                    pageDotBorderColor: .black,         // DefaultDotBorderColor: black
+                    parentV: bannerWrapV)
     }
 
     override func didReceiveMemoryWarning() {
